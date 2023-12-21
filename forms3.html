@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Natalia">
+    <meta name="description" content="Formularios">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    <h2>Rellena tu CV</h2>
+    <form action="">
+        <fieldset>
+            <legend>Datos presonales</legend>
+            <label for="provincia">Provincia</label><br>
+            <select name="provincia" id="provincia">
+                <option value="1">-selecciona-</option>
+                <option value="2">Valencia</option>
+            </select>
+
+            <br><br>
+            <label for="">Fecha de nacimiento</label>
+            <input type="text" name="fecha" size="3" minlength="2" maxlength="2" pattern="[0-9]{2}"> de
+            <select name="fecha" id="fecha">
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+
+            </select>
+             de
+            <input type="text" name="fecha" size="5" maxlength="4" minlength="4" pattern="[0-9]{4}">
+
+            <br><br>
+            <label for="">Temas de interés</label><br>
+            <select name="" id="" size="5">
+                <option value="">Administración de base de datos</option>
+                <option value="">Análisis</option>
+                <option value="">Arquitectura</option>
+                <option value="">Calidad</option>
+                <option value="">ERP, Business Inteligence</option>
+                <option value="">Programación</option>
+                <option value="">CRM</option>
+            </select>
+
+        </fieldset>
+    </form>
+</body>
+</html>

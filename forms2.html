@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="author" content="Natalia">
+    <meta name="description" content="Formularios">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset>
+          <legend>Dades personals</legend>
+          <label for="nom">Nom:</label>
+          <input id="nom" type="text" placeholder="Nom">
+          
+          <label for="cognoms">Cognoms:</label>
+          <input id="cognims" type="text" placeholder="Cognoms">
+  
+          <br><br>
+          <label for="DNI">DNI:</label>
+          <input id="DNI" type="text" placeholder="P. Ex. 11111111Q">
+      
+          <br><br>
+          <label for="user">Username:</label>
+          <input id="user" type="text" value="">
+  
+          <label for="clau1">Clau: </label>
+          <input id="clau1" type="password" value="">
+  
+          <label for="clau2">Repetir clau: </label>
+          <input id="clau2" type="password" value="">
+  
+          <br><br>
+          <label for="correu">E-Correo: </label>
+          <input id="correu" type="email" placeholder="usuario@domini.com">
+  
+          <label for="menu">Franja d'edat: </label>
+          <select name="menu">
+              <option value="1">Menor que 16 anys</option>
+              <option value="2">Major que 16 anys</option>
+            </select>
+  
+          <br><br>
+          <label for="sexe">Sexe: </label>
+          <input name="sexe" type="radio" value="home">Home
+          <input name="sexe" type="radio" value="dona">Dona
+  
+          <br><br>
+          <label for="codiPais">Codi País: </label>
+          <input id="codiPais" type="" placeholder="Codi de país dos carácteres" maxlength="2">
+  
+          <label for="zip">Codi ZIP: </label>
+          <input id="zip" type="" placeholder="Codi zip" maxlength="5">
+  
+          <br><br>
+          <label for="imatge">Imatge personal: </label>
+          <input id="imatge" type="file" value="">
+          </fieldset>
+  
+          <fieldset>
+              <legend>Altres dades d'interés</legend>
+  
+              <label for="intereses" >Interessos:</label><br>
+              <input type="checkbox" name="intereses" value="">CSS
+              <input type="checkbox" name="intereses" value="">HTML5
+              <input type="checkbox" name="intereses" value="">Javascript
+  
+              <br><br>
+              <label for="conocimientos" >Coneiximents:</label><br>
+              <input type="checkbox" name="conocimientos" value="">Xarxes Socials
+              <input type="checkbox" name="conocimientos" value="">Programació HTML
+              <input type="checkbox" name="conocimientos" value="">Programació CSS
+              <input type="checkbox" name="conocimientos" value="">Disseny
+  
+              <br><br>
+              <label for="cuadre">Comentaris: </label><br>
+              <textarea name="" id="" cols="30" rows="10" placeholder="Aqui disposeu d'espai per escriure"></textarea>
+  
+          </fieldset>
+  
+          <br>
+          <input type="button" value="Enviar">
+          <input type="reset" value="Borrar">
+      </form>
+</body>
+</html>
